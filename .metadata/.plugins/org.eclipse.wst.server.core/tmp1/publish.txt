@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Oct 01 12:04:43 IST 2018
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\verizon\\.m2\\repository\\org\\springframework\\spring-web\\5.0.9.RELEASE\\spring-web-5.0.9.RELEASE.jar=WEB-INF/lib/spring-web-5.0.9.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\verizon\\.m2\\repository\\org\\springframework\\spring-web\\5.0.0.RELEASE\\spring-web-5.0.0.RELEASE.jar=WEB-INF/lib/spring-web-5.0.0.RELEASE.jar

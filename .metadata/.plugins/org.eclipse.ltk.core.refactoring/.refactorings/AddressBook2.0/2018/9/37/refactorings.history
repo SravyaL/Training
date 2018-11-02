@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;AddressBook2.0&apos;&#x0D;&#x0A;- Original project: &apos;AddressBook2.0&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     AddressBook2.0/src/adb.exception&#x0D;&#x0A;     AddressBook2.0/src/adb.model&#x0D;&#x0A;     AddressBook2.0/src/adb.service&#x0D;&#x0A;     AddressBook2.0/src/adb.ui" description="Delete elements" element1="/src&lt;adb.ui" element2="/src&lt;adb.service" element3="/src&lt;adb.model" element4="/src&lt;adb.exception" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1536728311669" subPackages="false" version="1.0"/>
+</session>

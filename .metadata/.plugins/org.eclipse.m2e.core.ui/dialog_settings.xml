@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.verizon"/>
+		</list>
+		<list key="name">
+			<item value="addressbookspringdemo"/>
+			<item value="addressbook"/>
+			<item value="JPA-Demo"/>
+		</list>
+		<list key="artifactId">
+			<item value="juint-demo"/>
+			<item value="address-book-spring-restful-app"/>
+			<item value="address-book"/>
+			<item value="addressbook"/>
+			<item value="JPA-HIB-Demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="400" key="x"/>
+		<item value="139" key="y"/>
+		<item value="530" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\verizon\Downloads\Integrated-master"/>
+			<item value="C:\Users\verizon\Downloads\RAM"/>
+			<item value="C:\Users\verizon\Downloads\Tarangani-Spring"/>
+			<item value="C:\Users\verizon\Downloads\employee-spring-data(With TEST CASES for RESTAPI)"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining\emp-app"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining\address-book-spring-data-restful-app"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\verizon\workspace\FoundTraining\spring-amqp-demo\src\main\java\com\verizon\amqpdemo\subscriber\Consumer.java"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining\address-book-spring-data-restful-app"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining\demo\src\main\java\com\verizon\emp\controller\EmpController.java"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining\SpringBoot"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining\AddressBook2.0\src\com\verizon\adb\ui\ContactBookApp.java"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining\spring-web-demo"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining\MyFirstJavaWeb"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining\AddressBook1.0"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining\springnew\src\main\java\com\springcoredemo\iodemo\ui\App01.java"/>
+			<item value="C:\Users\verizon\workspace\FoundTraining\springdemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.verizon.jd.ui&apos; to &apos;AddressBook2.0/src&apos;&#x0D;&#x0A;- Original project: &apos;AddressBook1.0&apos;&#x0D;&#x0A;- Destination element: &apos;AddressBook2.0/src&apos;&#x0D;&#x0A;- Original element: &apos;AddressBook1.0/src/com.verizon.jd.ui&apos;" description="Copy package" destination="=AddressBook2.0/src" element1="/src&lt;com.verizon.jd.ui" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1536728378084" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+package com.taragani;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.taragani.model.Plan;
+import com.taragani.service.PlanService;
+import com.taragani.service.PlanServiceImp;
+
+public class TestBasic {
+
+	@Test
+	public void test() {
+		String input = "Plan";
+		Plan p = new Plan();
+		PlanService ps = new PlanServiceImp();
+		p = ps.getPlanBypTitle(input);
+		String Output = p.getpTitle();
+		assertEquals(Output, input);
+	}
+
+}

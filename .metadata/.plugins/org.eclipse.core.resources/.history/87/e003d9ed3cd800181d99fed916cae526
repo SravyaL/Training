@@ -1,0 +1,28 @@
+package com.taragani;
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.taragani.model.Plan;
+import com.taragani.service.PlanService;
+import com.taragani.service.PlanServiceImp;
+
+
+public class TestNullPlans {
+
+	@Test
+	public void testGreetWithNullInput() { // prepare Test Data
+		String input = null; // Run the
+		PlanService ps = new PlanServiceImpl();
+		String actualOutput = gs.greet(input); // Check the
+		// result
+		assertNull(actualOutput);
+	}
+
+
+}

@@ -1,0 +1,19 @@
+package com.taragani;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.taragani.model.Plan;
+
+public class TestBasic {
+
+	@Test
+	public void test() {
+		String input = "Plan1";
+		Plan p = new Plan();
+		String Output = p.getpTitle();
+		assertEquals(Output, input);
+	}
+
+}

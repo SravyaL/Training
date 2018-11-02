@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.verizon.subswing.Exception&apos; to &apos;com.verizon.subswing.exception&apos;&#x0D;&#x0A;- Original project: &apos;Swing&apos;&#x0D;&#x0A;- Original element: &apos;Swing/src/com.verizon.subswing.Exception&apos;&#x0D;&#x0A;- Renamed element: &apos;Swing/src/com.verizon.subswing.exception&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.verizon.subswing.Exception&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.verizon.subswing.Exception" name="com.verizon.subswing.exception" qualified="false" references="true" stamp="1535695323337" textual="false" version="1.0"/>
+</session>

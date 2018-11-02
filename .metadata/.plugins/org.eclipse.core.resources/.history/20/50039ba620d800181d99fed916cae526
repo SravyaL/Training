@@ -1,0 +1,5 @@
+package com.training.jdbc;
+
+public class EmployeeControllerIntegrationTest {
+
+}

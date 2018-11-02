@@ -1,0 +1,29 @@
+package com.taragani;
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.taragani.model.Plan;
+import com.taragani.service.PlanService;
+import com.taragani.service.PlanServiceImp;
+
+
+public class TestNullPlans {
+
+	@Test
+	public void testServiceWithNullInput() { // prepare Test Data
+		String input = "Plan101"; // Run the
+		boolean expected = false;
+		PlanServiceImp ps = new PlanServiceImp();
+		boolean actualOutput = ps.exists(input); // Check the
+		// result
+		assertEquals(expected, actualOutput);;
+	}
+
+
+}

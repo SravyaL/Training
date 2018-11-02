@@ -1,0 +1,5 @@
+package com.training.jdbc.dao;
+
+public interface EmployeeRepository {
+
+}

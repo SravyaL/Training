@@ -1,0 +1,84 @@
+package com.training.jdbc.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+	
+import com.training.jdbc.model.Employee;
+import com.training.jdbc.model.Gender;
+import com.training.jdbc.service.EmployeeService;
+
+@Controller
+//@RequestMapping(value="/employees")
+public class EmployeeController {
+
+    @Autowired
+    private EmployeeService empService;
+    
+    @GetMapping("/listEmps")
+    public ModelAndView listEmployees() {
+        return new ModelAndView("empList", "emps", empService.listEmployees());
+    }
+    @GetMapping("/addEmp")
+    public ModelAndView addEmployee() {
+        return new ModelAndView("addEmp", "emp", new Employee());
+    }
+    @PostMapping("/addEmp")
+    public String doAddEmployee(@ModelAttribute Employee emp) {
+        empService.addEmployee(emp);
+        return "redirect:/listEmps";
+    }
+
+
+@GetMapping("/editEmp")
+    public ModelAndView editBookAction(@RequestParam("empId") int empId) {
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("addPage");
+        mv.addObject("", Service.getById(empId));
+        mv.addObject("genders", Gender.values());
+        mv.addObject("possibDept", new String[] { "It", "Cloud", "Support", "Testing" });
+        return mv;
+    }
+
+    @GetMapping("/deleteEmp")
+    public String deleteEmpAction(@RequestParam("empId") int empId) {
+        Service.delete(empId);
+        return "redirect:/List";
+    }
+
+    @GetMapping("/search")
+    public String handleSearch() {
+        return "searchPage";
+    }
+
+    @PostMapping("/search")
+    public ModelAndView handleDoSearch(@RequestParam("srhValue") String searchValue,
+            @RequestParam("field") String byField) {
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("searchPage");
+        mv.addObject("pageTitle", "Results for " + byField + "= " + searchValue);
+        switch (byField) {
+        case "mobile":
+            mv.addObject("result", Service.findByMobileNumber(searchValue));
+            break;
+        case "email":
+            mv.addObject("result", Service.findByEmailId(searchValue));
+            break;
+        case "lnm":
+            mv.addObject("results", Service.findAllByLastName(searchValue));
+            break;
+        case "dp":
+            mv.addObject("results", Service.findAllByDept(searchValue));
+            break;
+        case "dob":
+            mv.addObject("results", Service.findAllByDateOfBirth(LocalDate.parse(searchValue)));
+            break;
+        }
+        return mv;
+    }
+
+}

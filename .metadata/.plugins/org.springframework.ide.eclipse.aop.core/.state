@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="NexusCorp"/>
+<aop-project name="address-book-restful-app"/>
+<aop-project name="spring-cassandra-demo"/>
+<aop-project name="JDBC-Demo"/>
+<aop-project name="spring-data-rest-demo"/>
+<aop-project name="spring-amqp-demo"/>
+<aop-project name="spring-security-demo-1"/>
+<aop-project name="TaranganiLtd"/>
+<aop-project name="emp-app"/>
+<aop-project name="address-book"/>
+<aop-project name="spring-mongo-demo"/>
+<aop-project name="string-data-rest-demo2"/>
+<aop-project name="address-book-spring-data-restful-app-2"/>
+<aop-project name="spring-security-assignment"/>
+<aop-project name="spring-jdbc-demo"/>
+<aop-project name="spring-security-demo-2"/>
+<aop-project name="spring-mongo-demo-2"/>
+<aop-project name="tarangani-limited"/>
+<aop-project name="spring-core-assignment"/>
+<aop-project name="address-book-spring-data-restful-app"/>
+</aop-reference-model>

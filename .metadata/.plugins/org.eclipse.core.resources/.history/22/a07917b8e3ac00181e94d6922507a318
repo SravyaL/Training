@@ -1,0 +1,12 @@
+package com.verizon.subswing.ui;
+
+
+	public class SubjectGUIApp {
+		public static void main(String[] args) {
+			SubjectHomeScreen sh = new SubjectHomeScreen();
+			sh.setVisible(true);
+		} 
+	}
+
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;spring-cassandra-demo/src/main/java/com.verizon.sdmd.service&apos;&#x0D;&#x0A;- Original project: &apos;spring-mongo-demo&apos;&#x0D;&#x0A;- Destination element: &apos;spring-cassandra-demo/src/main/java/com.verizon.sdmd.service&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.verizon.sdmd.service.ItemServiceImpl.java&#x0D;&#x0A;     com.verizon.sdmd.service.ItemService.java" description="Copy compilation units" destination="=spring-cassandra-demo/src\/main\/java&lt;com.verizon.sdmd.service" element1="/src\/main\/java&lt;com.verizon.sdmd.service{ItemServiceImpl.java" element2="/src\/main\/java&lt;com.verizon.sdmd.service{ItemService.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1538383898513" units="2" version="1.0"/>
+</session>

@@ -1,0 +1,39 @@
+package com.training.jdbc.service;
+
+import java.util.List;
+
+import com.training.jdbc.model.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public Employee addEmployee(Employee emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee updateEmployee(Employee emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteEmployee(Long empId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Employee getEmployeeById(Long empId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Employee> listEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

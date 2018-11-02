@@ -1,0 +1,20 @@
+<beans xmlns="http://www.springframework.org/schema/beans"	
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
+xsi:schemaLocation="http://www.springframework.org/schema/beans    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+<bean
+class = "com.verizon.service.SimpleTest" id ="wel01">
+<property name="greeting" value="Hi "></property></bean>
+<bean
+class = "com.verizon.service.SimpleTest" id ="wel001">
+<constructor-arg index="0" value="Yay"/></bean>
+
+<bean
+class = "com.verizon.service.HourBasedGreetingProvider" id ="wel02">
+</bean>
+<bean
+class = "com.verizon.service.AdvWelcomeService" id ="wel03">
+</bean>
+
+
+
+</beans>

@@ -1,0 +1,5 @@
+package com.verizon.sjdbc.dao;
+
+public class ItemDaoImpl {
+
+}
